@@ -1,0 +1,250 @@
+html {
+	
+}
+
+body {
+	background-color: darkslateblue;
+	background-image: linear-gradient(darkslateblue, midnightblue);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: antiquewhite;
+	margin: 0;
+	min-height: 100vh;
+}
+
+.body-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.nav {
+	
+}
+
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+	margin: 0px 25px 0px 25px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: right;
+	
+}
+
+.nav #title {
+	float: left;
+}
+
+.nav a {
+	display: block;
+	color: antiquewhite;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	font-weight: bold;
+}
+	
+.nav a:hover {
+	color: deeppink;
+}
+
+.footer {
+	margin: 15px 50px 15px 50px;
+}
+
+.index-wrapper {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.index-content {
+	margin: 10px;
+}
+
+.resume-wrapper {
+	width: 75%;
+	align-self: center;
+	font-size: small;
+}
+
+hr {
+	border-top: 1px;
+	border-color: hotpink;
+}
+
+.projects-wrapper {
+	width: 75%;
+	align-self: center;
+}
+
+#back-btn, #forward-btn {
+	cursor: pointer;
+  	background-color: hotpink;
+  	border: none;
+	border-radius: 30px;
+  	padding: 10px;
+	width: 125px;
+  	font-size: 16px;
+	font-weight: bold;
+	color: antiquewhite;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#back-btn:hover, #forward-btn:hover {
+	background-color: deeppink;
+	color: midnightblue;
+}
+
+.full-btn {
+	
+}
+
+.sml-btn {
+	display: none;
+}
+
+#image {
+	height: auto;
+	max-width: 100%;
+}
+
+.form-wrapper {
+  	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+label {
+	margin-top: 5px;
+	font-size: large;
+}
+
+input {
+	line-height: 2em;
+	font-size: large;
+	background-color: lightpink;
+	border: solid 1px hotpink;
+	border-radius: 3px;
+	color: midnightblue;
+}
+
+textarea {
+	font-size: large;
+	background-color: lightpink;
+	border: solid 1px hotpink;
+	border-radius: 3px;
+	color: midnightblue;
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	background-color: hotpink;
+  	border: none;
+	border-radius: 30px;
+  	padding: 10px;
+  	margin: 15px;
+	width: 25%;
+  	font-size: 16px;
+	font-weight: bold;
+	color: antiquewhite;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: deeppink;
+	color: midnightblue;
+}
+
+.row {
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	width: 100%;
+}
+
+.column {
+  	display: flex;
+ 	flex-direction: column;
+  	flex-basis: 100%;
+  	flex: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.center {
+	align-items: center;
+}
+
+.left {
+	align-items: flex-end;
+}
+
+.inline {
+	display: inline;
+}
+
+.accent {
+	color: hotpink;
+}
+
+b {
+	color: hotpink;
+}
+
+a {
+	color: hotpink;
+	font-weight: bold;
+}
+
+a:hover {
+	color: deeppink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.em {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav #title {
+		display: none;
+	}
+	.nav ul {
+		justify-content: center;
+	}
+	
+	#back-btn, #forward-btn {
+		width: 75px;
+	}
+	
+	.full-btn {
+		display: none;
+	}
+
+	.sml-btn {
+		display: inline;
+	}
+}
+
